@@ -30,6 +30,7 @@
     "yarn": ">=1.3.0 <2.0.0"
   },
   "scripts": {
+    "prepare": "gulp build && gulp npm",
     "preinstall": "node misc/preinstall.js",
     "commitmsg": "node misc/validate-commit.js",
     "test": "gulp",
